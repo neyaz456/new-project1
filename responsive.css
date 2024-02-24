@@ -1,0 +1,54 @@
+@media screen and (max-width: 1408px) and (min-width:300px) {
+  #ClassList {
+    width: 15vw;
+  }
+
+  #LsitContainer{
+    display: flex;
+    justify-content: left;
+  }
+
+  #LsitContainer:hover{
+    display: flex;
+    justify-content: left;
+  }
+
+  .navigatorList{
+    margin-left: 15px;
+  }
+
+  .navButton:hover{
+    font-size: 0.9rem;
+  }
+
+  .navButton{
+    width: 16vw;
+    height: 4vh;
+  }
+
+  .navButton:hover{
+    width: 20vw;
+    position: fixed;
+  }
+  .navButton2{
+    width: 25vw;
+    height: 4vh;
+    z-index: 1;
+  }
+
+  .navButton2:hover{
+    width: 30vw;
+    height: 5vh;
+  }
+
+  #ClassList{
+    width: 30vw;
+  }
+
+  #Inputsearch{
+    width: 40vw;
+  }
+
+
+ 
+}

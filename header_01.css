@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow: auto;
+}
+
+#Container2 {
+  width: 100%;
+ background-image: url(image/banner1.webp);;
+  /* position: fixed; */
+  /* z-index: 1; */
+}
+
+
+#LsitContainer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+#formInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navigationList {
+  list-style: none;
+
+}
+
+.navigatorList{
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.navigatorList:hover{
+  font-size: 1.4rem;
+  text-decoration:underline;
+  position:sticky;
+}
+
+.navButton{
+  background-image: url(image/button1.webp);
+  margin-top: 1vh ;
+  height: 4vh;
+  width: 8vw;
+  border: 1px solid red;
+  border-radius: 2vh;
+
+}
+
+.navButton:hover{
+  background-image: url(image/button.webp); ;
+  font-size: 1.2rem;
+  color: red;
+  cursor: pointer;
+}
+
+#Search {
+background-image: url(image/banner1.webp);
+}
+
+#Inputsearch {
+  background-image: url(image/banner1.webp);
+  height: 3.5vh;
+  width: 25vw;
+  font-size: 14px;
+  padding: 0 0 0 8px;
+  border:2px solid red;
+  border-radius: 29px;
+  margin: 10px 0 10px 0;
+  color: red;
+}
+
+#marqueeTag{
+  background-image: url(image/button1.webp  );
+
+}
+
+#textSlider{
+  position: fixed;
+  font-size: 1.5rem;
+  color: gold;
+  /* z-index: 1;
+   */
+}

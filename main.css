@@ -1,0 +1,133 @@
+main {
+    height: 100%;
+    width: 100%;
+    background-image: url(body2.webp);
+    position: relative;
+    background-repeat: repeat-y;
+    object-fit: fill;
+    /* display: inline; */
+    display: inline-flex;
+}
+
+
+#ClassList{
+display: inline-grid;
+  margin: 0 0 0 3px;
+  padding: 0 11px 11px 0;
+  border-radius: 20px;
+  border: 2px solid red;
+  background-image: url(banner.webp);
+  height: 80vh;
+  width: 9vw;
+  gap: 5px;
+  z-index: 1;
+
+}
+
+#LsitContainer2 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.navigatorList2  {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.navigatorList:hover {
+    font-size: 1.4rem;
+    text-decoration: underline;
+    position: sticky;
+}
+
+.navButton2 {
+    background-image: url(button1.webp);
+    margin-top: 1vh;
+    height: 4vh;
+    width: 8vw;
+    border: 1px solid red;
+    border-radius: 2vh;
+
+}
+
+.navButton2:hover{
+    background-image: url(button.webp); ;
+    font-size: 1rem;
+    color: red;
+    cursor: pointer;
+    width: 12.5vw;
+    z-index: 1;
+  }
+
+  .navigationList2 {
+    list-style: none;
+    gap: 30px;
+  
+  }
+
+
+.Content2 {
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.Content3 {
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.Content4 {
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.box1 {
+    background-image: url(techb.webp);
+    height: 25vh;
+    width: 18vw;
+    border: 2px solid red;
+    color: aqua;
+    margin: 2vh 0 0 0;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px red;
+
+}
+
+.box1:hover {
+    background-color: black;
+    color: red;
+    font-size: 18px;
+}
+
+.boxes{
+    width: 15vw;
+    height: 15vh;
+    border: 2px solid white;
+    color: white;
+}
+
+#bodyContent{
+    display:inline-grid;
+}
+
+.boxes{
+    display: flex;
+}
+
+.firststory{
+    color: rgb(247, 244, 244);
+    margin:  0 0 0 30px;
+    font-size: 1.5rem;
+    background-color: rgb(10, 10, 10);
+    padding: 10px;
+}
+
+#idfirststory{
+    font-size: 3rem;
+}
